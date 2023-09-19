@@ -10,7 +10,7 @@ app = FastAPI()
 @app.get("/iris")
 def get_iris():
     
-
+    # code link [https://scikit-learn.org/stable/auto_examples/datasets/plot_iris_dataset.html]
     # import some data to play with
     iris = datasets.load_iris()
     X = iris.data[:, :2]  # we only take the first two features.
